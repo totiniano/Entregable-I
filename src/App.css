@@ -73,5 +73,17 @@
 
     .App__pharse {
         max-width: 100%;
+        width: 375px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .imgPharse {
+        width: 100%;
+    }
+
+    .App__pharse {
+        max-width: 100%;
+        width: 350px;
     }
 }
