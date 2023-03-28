@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.App {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #a4a8ac;
+}
+
+.App__title {
+    text-align: center;
+    font-family: "Tilt Prism", cursive;
+    color: #bc523b;
+    font-size: 48px;
+}
+
+.App__btn {
+    display: block;
+    padding: 0.8em 3em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: goldenrod;
+    color: rgb(105, 91, 17);
+    border: 2px solid #bc523b;
+    border-radius: 0.4em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.App__pharse {
+    width: 100%;
+    max-width: 400px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    color: #665e5c;
+    z-index: 1000;
+}
+
+.App__fte {
+    width: 100%;
+    max-width: 200px;
+    background-color: rgb(246, 246, 246);
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #5b81ae;
+    border-radius: 0.4em;
+    font-size: 14px;
+}
+
+.imgTop {
+    position: relative;
+    width: 440px;
+    height: 180px;
+    z-index: 10;
+}
