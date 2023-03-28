@@ -24,7 +24,7 @@ function App() {
             />
             <div>
                 <img
-                    className="imgTop"
+                    className="imgPharse"
                     src="/backgrounds/fondo5.png"
                     alt="Small Image"
                 />
